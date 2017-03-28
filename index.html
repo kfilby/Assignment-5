@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 5 - Kyle Filby</title>
+    <script src="js/Assignment5.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment5.css" />
+</head>
+
+<body>
+
+    <h1>Assignment 5 - Kyle Filby</h1>
+    <hr>
+    <select onchange="MenuChoice()" id="menu">
+        <option>Please make a selection:</option>
+        <option>Customer List</option>
+        <option>Customer Order History</option>
+        <option>Orders Made</option>
+    </select>
+    <hr>
+
+
+<section id="section1" class="section1">
+    <body onload="CustomerList()"></body>
+    <label id="customerlist"></label>
+    
+</section>
+
+<section id="section2" class="section2">
+    <label>Please enter a Customer ID:</label>
+    <input type="text" id="custid1">
+    <br>
+    <button onclick="GetHistory()" id="history">Get Order History</button>
+    <hr>
+    <br>
+    <label id="historydisplay"></label>
+</section>
+
+<section id="section3" class="section3">
+    <label>Please enter a Customer ID:</label>
+    <input type="text" id="custid2">
+    <br>
+    <button onclick="GetOrders()" id="orders">Get Customer Orders</button>
+    <hr>
+    <br>
+    <label id="orderdisplay"></label>
+
+</section>
+    
+    
+    
+    <footer>
+        <br>
+        <hr>
+        Kyle Filby - kfilby@uab.edu
+    </footer>
+
+</body>
+</html>

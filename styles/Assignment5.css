@@ -1,0 +1,11 @@
+section.section1 {display: none; width: 600px;} 
+
+section.section2 {display: none; width: 600px;}
+
+section.section3 {display: none; width: 600px;}
+
+footer {text-align: left; font-style: italic;}
+
+table{border: 1px solid black; table-layout: fixed; width: 200px;}
+
+th, td {border: 1px solid black; width: 150px;}
